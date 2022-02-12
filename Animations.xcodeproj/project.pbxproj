@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E937D4BE27B70A3000BBE882 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4BD27B70A3000BBE882 /* AnimatingGestures.swift */; };
+		E937D4BF27B70A3000BBE882 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4BD27B70A3000BBE882 /* AnimatingGestures.swift */; };
+		E937D4C127B70F0D00BBE882 /* OffsetAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C027B70F0D00BBE882 /* OffsetAnimations.swift */; };
+		E937D4C227B70F0D00BBE882 /* OffsetAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C027B70F0D00BBE882 /* OffsetAnimations.swift */; };
+		E937D4C427B7102D00BBE882 /* ViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C327B7102D00BBE882 /* ViewTransitions.swift */; };
+		E937D4C527B7102D00BBE882 /* ViewTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C327B7102D00BBE882 /* ViewTransitions.swift */; };
+		E937D4C727B873F800BBE882 /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C627B873F800BBE882 /* CustomTransitions.swift */; };
+		E937D4C827B873F800BBE882 /* CustomTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937D4C627B873F800BBE882 /* CustomTransitions.swift */; };
 		E9F34BDA279B48A000D1FD11 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F34BCA279B489E00D1FD11 /* AnimationsApp.swift */; };
 		E9F34BDB279B48A000D1FD11 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F34BCA279B489E00D1FD11 /* AnimationsApp.swift */; };
 		E9F34BDC279B48A000D1FD11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F34BCB279B489E00D1FD11 /* ContentView.swift */; };
@@ -16,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E937D4BD27B70A3000BBE882 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
+		E937D4C027B70F0D00BBE882 /* OffsetAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAnimations.swift; sourceTree = "<group>"; };
+		E937D4C327B7102D00BBE882 /* ViewTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTransitions.swift; sourceTree = "<group>"; };
+		E937D4C627B873F800BBE882 /* CustomTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitions.swift; sourceTree = "<group>"; };
 		E9F34BCA279B489E00D1FD11 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		E9F34BCB279B489E00D1FD11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9F34BCC279B48A000D1FD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +69,10 @@
 				E9F34BCA279B489E00D1FD11 /* AnimationsApp.swift */,
 				E9F34BCB279B489E00D1FD11 /* ContentView.swift */,
 				E9F34BCC279B48A000D1FD11 /* Assets.xcassets */,
+				E937D4BD27B70A3000BBE882 /* AnimatingGestures.swift */,
+				E937D4C027B70F0D00BBE882 /* OffsetAnimations.swift */,
+				E937D4C327B7102D00BBE882 /* ViewTransitions.swift */,
+				E937D4C627B873F800BBE882 /* CustomTransitions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -176,8 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E937D4BE27B70A3000BBE882 /* AnimatingGestures.swift in Sources */,
 				E9F34BDC279B48A000D1FD11 /* ContentView.swift in Sources */,
+				E937D4C427B7102D00BBE882 /* ViewTransitions.swift in Sources */,
+				E937D4C727B873F800BBE882 /* CustomTransitions.swift in Sources */,
 				E9F34BDA279B48A000D1FD11 /* AnimationsApp.swift in Sources */,
+				E937D4C127B70F0D00BBE882 /* OffsetAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E937D4BF27B70A3000BBE882 /* AnimatingGestures.swift in Sources */,
 				E9F34BDD279B48A000D1FD11 /* ContentView.swift in Sources */,
+				E937D4C527B7102D00BBE882 /* ViewTransitions.swift in Sources */,
+				E937D4C827B873F800BBE882 /* CustomTransitions.swift in Sources */,
 				E9F34BDB279B48A000D1FD11 /* AnimationsApp.swift in Sources */,
+				E937D4C227B70F0D00BBE882 /* OffsetAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
